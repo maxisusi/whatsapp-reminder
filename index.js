@@ -6,7 +6,7 @@ const accountSid = process.env.ACCOUNT_SID;
 const authToken = process.env.AUTH_TOKEN;
 const client = require('twilio')(accountSid, authToken);
 
-const cancel = alarm.recurring(10000, function () {
+const cancel = alarm.recurring(20000, function () {
 
     const send = () => {
         const text =
