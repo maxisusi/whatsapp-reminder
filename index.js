@@ -30,7 +30,8 @@ const cancel = alarm.recurring(20000, function () {
         to: process.env.NUMBER,
         body: `"${movieQ[0].quote}" - ${movieQ[0].movie} \n \n${send()}`,
             
-    }).then(message => console.log(message.sid));
+    }).then(message => console.log(message.sid))
+    .catch(error => console.log(error));
 
 });
 
