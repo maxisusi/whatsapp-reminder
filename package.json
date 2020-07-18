@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alarm": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "popular-movie-quotes": "^1.2.4",
+    "twilio": "^3.48.0"
+  }
+}
